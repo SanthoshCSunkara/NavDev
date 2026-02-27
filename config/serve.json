@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://7sklww.sharepoint.com/sites/IntranetConfig/SitePages/Home.aspx",
+      "customActions": {
+        "57c486f0-2b42-4a16-a122-4f1e0aee8b41": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {}
+        }
+      }
+    }
+  }
+}
+
+
+
+

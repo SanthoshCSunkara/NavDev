@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "corp-chrome-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/corpChrome/CorpChromeApplicationCustomizer.js",
+          "manifest": "./src/extensions/corpChrome/CorpChromeApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CorpChromeApplicationCustomizerStrings": "lib/extensions/corpChrome/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,47 @@
+.headerRoot {
+  width: 100%;
+}
+
+.diagnosticBanner {
+  background: #c62828;
+  color: #ffffff;
+  padding: 6px 12px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.navLink {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

@@ -1,0 +1,19 @@
+.footerRoot {
+  width: 100%;
+  padding: 10px 16px;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.spacer {
+  flex: 1;
+}
